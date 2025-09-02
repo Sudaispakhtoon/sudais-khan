@@ -1,0 +1,374 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>sudais Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Jo5sEJm9U5Qm7f0l0v2m2xjB8+uI3wq8b7wq1i0VgqzQ2mSxqzJm4Qw6hH0r4a0aYwLk2l9lJv9Q2mY8lYQw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+              <header>
+  <div class="container header-row">
+    <div class="logo">Exclusive</div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+                <li><a href="cart.html">cart</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <div class="actions">
+      <div class="searchbar">
+        <input placeholder="What are you looking for?" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+   
+</header>
+
+  <main class="container">
+    <div class="layout">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <h4>Categories</h4>
+        <a href="#">Woman’s Fashion <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Men’s Fashion <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Electronics <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Home & Lifestyle <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Medicine <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Sports & Outdoor <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Baby’s & Toys <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Groceries & Pets <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="#">Health & Beauty <i class="fa-solid fa-chevron-right"></i></a>
+      </aside>
+
+      <section>
+        <!-- Hero -->
+        <div class="hero">
+          <div class="copy">
+            <div style="display:flex;gap:10px;align-items:center;color:#c7d2fe">
+              <i class="fa-brands fa-apple"></i> iPhone 15 Series
+            </div>
+            <h2>Up to 10% off Voucher</h2>
+            <p>Grab the latest iPhone with an exclusive discount and free delivery.</p>
+              <img src="_ (2).jpeg">
+            <a class="cta" href="#">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <img src="2.jpeg" alt="">
+          <div class="slides">
+            <div class="slide active">
+              <div class="mock"><i class="fa-solid fa-mobile-screen-button" style="font-size:84px;color:#e5e7eb"></i></div>
+            </div>
+            <div class="slide">
+              <div class="mock" style="background:linear-gradient(135deg,#111827,#0b0f19 60%)"><i class="fa-solid fa-camera" style="font-size:84px;color:#e5e7eb"></i></div>
+            </div>
+            <div class="slide">
+              <div class="mock" style="background:linear-gradient(135deg,#0b1324,#0b0f19 60%)"><i class="fa-solid fa-headphones" style="font-size:84px;color:#e5e7eb"></i></div>
+            </div>
+            <div class="dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flash Sales -->
+        <div class="section">
+          <div class="section-header">
+            <div>
+              <div class="badge"><span class="dot-red"></span><span style="color:var(--brand);font-weight:600">Today’s</span></div>
+              <div class="h3">Flash Sales</div>
+            </div>
+            <div style="display:flex;gap:24px;align-items:center">
+              <div class="countdown" id="countdown">
+                <!-- JS fills timeboxes -->
+              </div>
+              <div class="carousel-actions">
+                <button class="pill" aria-label="prev"><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="pill" aria-label="next"><i class="fa-solid fa-chevron-right"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid">
+            <!-- Product Card -->
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="1.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">Head Phones</div>
+                <div class="price"><strong>$80</strong> <del>$110</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.8 (88)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+<!-- Product Card -->
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="3.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">SPeaker</div>
+                <div class="price"><strong>$960</strong> <del>$1160</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.5 (75)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="4.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title"> Sport Shoes</div>
+                <div class="price"><strong>$370</strong> <del>$400</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.7 (99)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="5.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">Comfort Chair</div>
+                <div class="price"><strong>$375</strong> <del>$400</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.6 (62)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+          </div>
+          
+
+          <div style="text-align:center;margin-top:18px">
+            <a class="cta" style="background:var(--brand);color:#fff" href="#">View All Products</a>
+          </div>
+        </div>
+        
+
+        <!-- Browse By Category -->
+        <div class="section">
+          <div class="badge"><span class="dot-red"></span><span style="color:var(--brand);font-weight:600">Categories</span></div>
+          <div class="h3">Browse By Category</div>
+          <div class="cat-grid">
+            <div class="cat"><i class="fa-solid fa-mobile-screen-button"></i><div>Mini cars</div></div>
+            <div class="cat"><i class="fa-solid fa-computer"></i><div>Computers</div></div>
+            <div class="cat"><i class="fa-solid fa-clock"></i><div>Smartwatch</div></div>
+            <div class="cat" style="border-color:var(--brand)"><i class="fa-solid fa-camera"></i><div>Camera</div></div>
+            <div class="cat"><i class="fa-solid fa-headphones"></i><div>Fan</div></div>
+            <div class="cat"><i class="fa-solid fa-gamepad"></i><div>Kitchen Appliences</div></div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+</head>
+<body>
+    <div class="container">
+
+    <!-- Top Voucher Banner -->
+    <div class="top-banner">
+      <h2>Up to 50% off Voucher</h2>
+      <button>Shop Now</button>
+    </div>
+
+    <!-- Browse by Category -->
+    <section class="categories">
+      <h3>Browse by Category</h3>
+      <div class="category-list">
+        <div class="category-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="Gaming" />
+          <span>Gaming</span>
+        </div>
+        <div class="category-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Fashion" />
+          <span>Fashion</span>
+        </div>
+        <div class="category-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Music" />
+          <span>Music</span>
+        </div>
+        <div class="category-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/3079/3079254.png" alt="Sport" />
+          <span>Sport</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Best Selling Products -->
+    <section class="best-selling">
+      <h3>Best Selling Products</h3>
+         <div class="grid">
+            <!-- Product Card -->
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="6.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">Switter</div>
+                <div class="price"><strong>$120</strong> <del>$160</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.8 (88)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="7.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">Shoes</div>
+                <div class="price"><strong>$90</strong> <del>$100</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.5 (75)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="8.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">Glasses</div>
+                <div class="price"><strong>$50</strong> <del>$100</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.7 (99)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="thumb"><div class="img"><img src="9.jpg"></div><button class="save" title="Save"><i class="fa-regular fa-heart"></i></button></div>
+              <div class="body">
+                <div class="title">cap</div>
+                <div class="price"><strong>$50</strong> <del>$70</del></div>
+                <div class="rating"><i class="fa-solid fa-star"></i> 4.6 (62)</div>
+                <div class="add">Add To Cart</div>
+              </div>
+            </article>
+          </div>
+
+        
+
+    <!-- Music Experience Promo Banner -->
+    <section class="promo-banner">
+      <div class="promo-text">
+        <h3>Enhance Your Music Experience</h3>
+        <button>Shop Now</button>
+      </div>
+      <img src="3.jpg" alt="Speaker Promo" />
+    </section>
+
+
+
+  <!-- New Arrival Section -->
+  <section class="new-arrival-section">
+    <h3 class="section-tag">Featured</h3>
+    <h2>New Arrival</h2>
+    <div class="arrival-grid">
+
+      <div class="arrival-card large">
+        <img src="13.jpg" alt="PlayStation">
+        <div class="overlay">
+          <h3>Women Wolet</h3>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="arrival-card">
+        <img src="image (2).png" alt="Women's Collection">
+        <div class="overlay">
+          <h3>Women's Collections</h3>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="arrival-card">
+        <img src="16.jpg" alt="Speakers">
+        <div class="overlay">
+          <h3>Tridmill machine</h3>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+
+      <div class="arrival-card">
+        <img src="15.jpg" alt="Perfume">
+        <div class="overlay">
+          <h3>Punching Box</h3>
+          <a href="#">Shop Now</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Service Highlights Section -->
+  <section class="service-highlights">
+    <div class="service-item">
+      <div class="icon-circle">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/delivery.png" alt="Delivery Icon">
+      </div>
+      <h3>FREE AND FAST DELIVERY</h3>
+      <p>Free delivery for all orders over $140</p>
+    </div>
+
+    <div class="service-item">
+      <div class="icon-circle">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/headset.png" alt="Customer Service Icon">
+      </div>
+      <h3>24/7 CUSTOMER SERVICE</h3>
+      <p>Friendly 24/7 customer support</p>
+    </div>
+
+    <div class="service-item">
+      <div class="icon-circle">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/approval.png" alt="Money Back Icon">
+      </div>
+      <h3>MONEY BACK GUARANTEE</h3>
+      <p>We return money within 30 days</p>
+    </div>
+  </section>
+
+
+ <footer>
+    <div class="container section">
+      <div class="grid">
+        <div>
+          <div class="logo" style="color:#fff">Exclusive</div>
+          <p style="color:#9ca3af">Subscribe for latest deals</p>
+          <div class="searchbar" style="background:#111827;border:1px solid #374151">
+            <input style="color:#e5e7eb" placeholder="Enter your email" />
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul style="list-style:none;padding:0">
+            <li><a href="#">111 Bijoy Sarani, Dhaka</a></li>
+            <li><a href="#">exclusive@gmail.com</a></li>
+            <li><a href="#">+88015-88888-9999</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Account</h4>
+          <ul style="list-style:none;padding:0">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Login / Register</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Shop</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Download App</h4>
+          <p style="color:#9ca3af">Save $3 with App New User Only</p>
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="width:80px;height:80px;background:#111827;border:1px solid #374151;border-radius:12px;display:grid;place-items:center">QR</div>
+            <div style="display:grid;gap:8px">
+              <div style="height:38px;border:1px solid #374151;border-radius:10px;display:grid;place-items:center;padding:0 12px">Google Play</div>
+              <div style="height:38px;border:1px solid #374151;border-radius:10px;display:grid;place-items:center;padding:0 12px">App Store</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="border-top:1px solid #1f2937;margin-top:24px;padding:16px 0;text-align:center;color:#9ca3af">© 2025 Exclusive. All rights reserved.</div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
